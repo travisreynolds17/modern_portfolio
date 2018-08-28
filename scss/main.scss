@@ -10,9 +10,14 @@ body {
   background: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+}
+
+.content-wrapper {
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 //Headings
@@ -51,7 +56,7 @@ header {
 
 main {
   min-height: calc(100vh - 60px);
-  padding: 4rem; 
+  padding: 4rem;
 
   .icons {
     margin-top: 1rem;
